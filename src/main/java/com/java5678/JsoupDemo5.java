@@ -6,7 +6,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-
+//这里是爬虫爬数据
 public class JsoupDemo5 {
     //适合使用image，不适合style
     public static void main(String[] args) throws IOException {
