@@ -7,7 +7,7 @@ import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.io.IOException;
-
+//历史的今天
 //这里是怎么简单的破解反爬虫
 public class JsoupDemo8 {
     //适合使用image，不适合style

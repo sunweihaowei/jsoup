@@ -6,6 +6,8 @@ public class Liskov1 {
         System.out.println("-----------------------");
 
         B1 b=new B1();
+        System.out.println(b.func2(11,3));;
+        System.out.println(b.func3(11,3));
 
     }
 }
@@ -30,6 +32,9 @@ class A1 extends Base {
 class B1 extends Base{
     private A1 a1=new A1();
     public int func2(int a,int b){
-        return a1.func1(a,b)+9;
+        return this.a1.func1(a,b)+9;
+    }
+    public int func3(int a,int b){
+        return this.a1.func1(a,b);
     }
 }
