@@ -12,6 +12,7 @@ public class TestThread2 extends Thread {
     public TestThread2(String url,String name){
         this.url=url;
         this.name=name;
+        //hhh
     }
     @Override
     public void run() {
