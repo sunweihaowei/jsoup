@@ -1,10 +1,12 @@
+package com.example.sunweihao;
+
 public class Ocp2 {
     public static void main(String[] args) {
-        /*GraphicEditor graphicEditor=new GraphicEditor();
-        graphicEditor.drawShape(new Rectangle());
-        graphicEditor.drawShape(new Circle());
+        /*com.example.sunweihao.GraphicEditor graphicEditor=new com.example.sunweihao.GraphicEditor();
+        graphicEditor.drawShape(new com.example.sunweihao.Rectangle());
+        graphicEditor.drawShape(new com.example.sunweihao.Circle());
         //增加一个方法
-        graphicEditor.drawShape(new Triangle());*/
+        graphicEditor.drawShape(new com.example.sunweihao.Triangle());*/
         GraphicEditor2 graphicEditor2=new GraphicEditor2();
         graphicEditor2.drawShape(new Rectangle2());
         graphicEditor2.drawShape(new Circle2());

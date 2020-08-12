@@ -1,3 +1,5 @@
+package com.example.sunweihao;
+//
 public class Ocp1 {
     public static void main(String[] args) {
         GraphicEditor graphicEditor=new GraphicEditor();

@@ -36,7 +36,6 @@ public class Race implements Runnable {
         }
         return false;
     }
-
     public static void main(String[] args) {
         Race race=new Race();
         new Thread(race,"兔子").start();

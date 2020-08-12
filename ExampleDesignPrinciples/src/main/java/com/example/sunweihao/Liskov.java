@@ -1,3 +1,5 @@
+package com.example.sunweihao;
+
 public class Liskov {
     public static void main(String[] args) {
         A a=new A();

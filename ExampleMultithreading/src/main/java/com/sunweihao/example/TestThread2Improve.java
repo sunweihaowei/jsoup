@@ -21,9 +21,9 @@ public class TestThread2Improve implements Runnable {
     }
 
     public static void main(String[] args) {
-        TestThread2 testThread1=new TestThread2("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3620297292,2452146774&fm=26&gp=0.jpg","苍井空老师");
-        TestThread2 testThread2=new TestThread2("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3620297292,2452146774&fm=26&gp=0.jpg","颇多野老师");
-        TestThread2 testThread3=new TestThread2("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3620297292,2452146774&fm=26&gp=0.jpg","孙伟豪老师");
+        TestThread2Improve testThread1=new TestThread2Improve("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3620297292,2452146774&fm=26&gp=0.jpg","苍井空老师");
+        TestThread2Improve testThread2=new TestThread2Improve("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3620297292,2452146774&fm=26&gp=0.jpg","颇多野老师");
+        TestThread2Improve testThread3=new TestThread2Improve("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3620297292,2452146774&fm=26&gp=0.jpg","孙伟豪老师");
         new Thread(testThread1).start();
         new Thread(testThread2).start();
         new Thread(testThread3).start();

@@ -35,7 +35,7 @@ public class TodayInHistory {
         Document document = response.parse();
         Elements select = document.select("p.f14 1200");
         Elements p = document.select("p");//选择p标签
-        Elements a = p.select("a");//选择里面的啊标签
+        Elements a = p.select("a");//选择里面的a标签
         List<Map<String,String>> mapList=new ArrayList<Map<String, String>>();
         Map<String,String> stringStringMap=new HashMap<String, String>();
 

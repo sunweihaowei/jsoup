@@ -12,8 +12,6 @@ public class TestThread3 implements Runnable{
     public static void main(String[] args) {
         //创建对象，通过线程对象来开启我们的线程，代理
 
-
-
         new Thread(new TestThread3()).start();
         for (int i = 0; i < 200; i++) {
             System.out.println("我在学习多线程"+i);
