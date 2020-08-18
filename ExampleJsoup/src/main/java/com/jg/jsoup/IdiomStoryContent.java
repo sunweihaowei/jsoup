@@ -30,7 +30,5 @@ public class IdiomStoryContent {
         Document parse = response.parse();
         Elements p = parse.select("p");
         System.out.println(p);
-
-
     }
 }
